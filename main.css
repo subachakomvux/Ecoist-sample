@@ -1,0 +1,106 @@
+/* styling home.html*/
+.wallpaper-bkgnd {
+    background-image: url('img/wallpaper.jpg')
+}
+.masthead {    
+    position: relative;
+    background-image: url('img/banner_1.jpg');
+    background-repeat: no-repeat;    
+    background-size: cover;
+    height : 50vh;
+}
+.text-white{
+    color:white;
+}
+/* styling index.html */
+#index{
+    background-color: black;
+}
+.parallax{
+    background-image: linear-gradient(green,black);
+    background-size:cover;
+    height:60vh;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax .tagline{
+    padding:15px 40px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius:10px;
+}
+.cta {
+    position: relative;
+    padding: 250px 0;
+    background-image: url('img/Tian.png');    
+    background-position: center;
+    background-size: cover;
+}
+.cta .cta-content {
+    position: relative;
+    z-index: 1;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.index-heading{    
+    background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
+    color:rgb(241, 243, 208);
+    height:10vh;
+}
+.tian-image{
+    background-image: url('img/Tian.png');
+}
+.features-icons-item {
+    background-color: darkgreen;
+}
+/* links at bottom of page */
+.text-desc {
+    color:white;
+    font-size:1rem;
+    padding:1rem;
+}
+.image-thumbnail {
+    height:13rem;
+    border-radius: 50%;
+    padding:1rem;
+}
+/* footer */
+.myFooter{
+    background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
+    color:rgb(228, 240, 10);
+    height:5vh;
+    line-height: 2rem;
+}
+
+.tagline1{
+    background-color: rgba(0,0,0,0.5);
+    color:greenyellow;
+    padding:15px 40px;
+    border-radius:10px;
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/* styling navigation bar*/
+.my-nav{
+    background-color: #ffffff;
+ 
+}
+.nav-link{
+     color: rgb(0, 0, 0);
+}
+.nav-link:hover{
+     color: rgb(19, 90, 21);
+     text-shadow: 0.5em;
+     background-color: rgb(151, 241, 91);
+}
+.nav-link:active{
+     color: rgb(10, 47, 56);
+}
