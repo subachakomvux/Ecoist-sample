@@ -1,23 +1,45 @@
-/* styling home.html*/
-.wallpaper-bkgnd {
-    background-image: url('img/wallpaper.jpg')
-}
-.masthead {    
-    position: relative;
-    background-image: url('img/banner_1.jpg');
-    background-repeat: no-repeat;    
-    background-size: cover;
-    height : 50vh;
-}
-.text-white{
-    color:white;
-}
 /* styling index.html */
 #index{
     background-color: black;
 }
+/*styling header in index.html*/
+.index-heading{    
+    background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
+    color:rgb(241, 243, 208);
+    height:10vh;
+}
+.tian-image{
+    background-image: url('img/Tian.png');
+}
+/* styling home.html*/
+.home-header {
+    background-color:black;
+    color:greenyellow;
+}
+.wallpaper-bkgnd {
+    background-image: url('img/wallpaper_2.jpg')
+}
+/* styling image grid on home page */
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .my-column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .my-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  /* styling parallax image */
 .parallax{
-    background-image: linear-gradient(green,black);
+    background-image: url('img/Tian.png');
     background-size:cover;
     height:60vh;
     background-attachment: fixed;
@@ -48,34 +70,22 @@
     margin-right: auto;
     margin-left: auto;
 }
-.index-heading{    
-    background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
-    color:rgb(241, 243, 208);
-    height:10vh;
-}
-.tian-image{
-    background-image: url('img/Tian.png');
-}
 .features-icons-item {
     background-color: darkgreen;
 }
-/* links at bottom of page */
+/* special links at bottom of page */
 .text-desc {
     color:white;
     font-size:1rem;
     padding:1rem;
+    margin:1rem;
+    background:black;
+    border-radius:5%;
 }
 .image-thumbnail {
     height:13rem;
     border-radius: 50%;
     padding:1rem;
-}
-/* footer */
-.myFooter{
-    background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
-    color:rgb(228, 240, 10);
-    height:5vh;
-    line-height: 2rem;
 }
 
 .tagline1{
@@ -103,4 +113,59 @@
 }
 .nav-link:active{
      color: rgb(10, 47, 56);
+}
+
+/* styling each section */
+
+.new-section {
+  background-color: rgb(205, 248, 106);
+  color: black;
+}
+.section-aboutUs{
+    background-image: url('img/Thomas_aboutUs.jpg');
+    background-position: right;
+    background: cover;
+    background-repeat: no-repeat;
+    
+}
+.section-Tian{
+    background-image: url('img/Tian.png');
+    background-position: center;
+    background: cover;
+    background-repeat: no-repeat;
+}
+.specs-display{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:white;
+    font-size: 1rem;
+    padding:1rem;
+    margin:2rem;
+    border-radius:5%;
+
+}
+.section-contact{
+    background-color:white;
+    color:green;
+}
+.section-milestones{
+    background-image:url('img/wallpaper_3.jpg');
+}
+/* styling section heading */
+.heading{
+    background-color: white;
+    color:black;
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    align-content: center;
+    margin: 1rem;
+
+}
+
+/* footer */
+.myFooter{
+    background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
+    color:rgb(228, 240, 10);
+    height:5vh;
+    line-height: 2rem;
 }
