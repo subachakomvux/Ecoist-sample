@@ -78,14 +78,13 @@
     background-color: darkgreen;
     max-width: 20rem;
 }
-.features-icons .features-icons-item .features-icons-icon {
+.features-icons .features-icons-item {
     height: 7rem;
 }
 .text-desc {
     color:white;
     background-color:black;
     font-size:1rem;
-    
     padding:1rem;
     margin:1rem;
     border-radius:5%;
@@ -125,8 +124,7 @@
 }
 /* styling navigation bar*/
 .my-nav{
-    background-color:rgb(205, 248, 106);
- 
+    background-color:rgb(205, 248, 106); 
 }
 .nav-link{
      color: rgb(0, 0, 0);
@@ -137,7 +135,6 @@
      color: darkgreen;
      background-color: rgb(70, 238, 188);
      font-weight: bold;
-     border-radius: 25%;
 }
 .nav-link:active{
      color: rgb(10, 47, 56);
