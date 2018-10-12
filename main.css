@@ -16,9 +16,6 @@
     background-color:black;
     color:greenyellow;
 }
-.wallpaper-bkgnd {
-    background-image: url('img/wallpaper_2.jpg')
-}
 /* styling image grid on home page */
 .my-row {
     display: flex;
@@ -26,7 +23,7 @@
     padding: 0 4px;
   }
   
-  /* Create two equal columns that sits next to each other */
+  /* create two equal columns that sits next to each other */
   .my-column {
     flex: 50%;
     padding: 0 4px;
@@ -70,10 +67,18 @@
     margin-right: auto;
     margin-left: auto;
 }
-.features-icons-item {
-    background-color: darkgreen;
+/* special links on homepage */
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
-/* special links at bottom of page */
+.features-icons .features-icons-item {
+    background-color: darkgreen;
+    max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
 .text-desc {
     color:white;
     font-size:1rem;
@@ -87,7 +92,12 @@
     border-radius: 50%;
     padding:1rem;
 }
-
+.spl-link:hover{
+    color:black;
+    background-color:yellowgreen;
+    text-decoration: none;
+}
+/* styling company tagline */
 .tagline1{
     background-color: rgba(0,0,0,0.5);
     color:greenyellow;
@@ -97,26 +107,34 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
+/* display company slogan */
+.display-tagline{
+    background-color: darkgreen;
+    color:rgb(255, 255, 255);
+    height:6rem;
+    font-size:1.2rem;font-family:Helvetica ; line-height: 6rem;padding-top:2rem;align-content: center;
+}
 /* styling navigation bar*/
 .my-nav{
-    background-color: #ffffff;
+    background-color:rgb(205, 248, 106);
  
 }
 .nav-link{
      color: rgb(0, 0, 0);
+     font-family:Helvetica;
+     font-weight: bold;
 }
 .nav-link:hover{
-     color: rgb(19, 90, 21);
-     text-shadow: 0.5em;
-     background-color: rgb(151, 241, 91);
+     color: black;
+     background-color: rgb(255, 238, 0);
+     font-weight: bold;
+     border-radius: 25%;
 }
 .nav-link:active{
      color: rgb(10, 47, 56);
 }
 
 /* styling each section */
-
 .new-section {
   background-color: rgb(205, 248, 106);
   color: black;
@@ -169,3 +187,19 @@
     height:5vh;
     line-height: 2rem;
 }
+
+/* styling gallery */
+.conbox{
+    height:100vh;
+    background-color:#000000;
+ }
+ .slide_img{
+    width:1186px;
+    height:100%;
+    border:20px solid darkgreen;
+ 
+ }
+ .slide_img img{
+    height: 100%;
+    width: 100%;
+ }

@@ -13,10 +13,10 @@
 </head>
 
 <body>
-
-    <nav class="navbar fixed-top navbar-expand-lg  navbar-shrink my-nav">
+    <!--responsive navigational panel has logo displayed on left side and links on right side. -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-shrink my-nav">
         <a class="navbar-brand nav-link" href="index.html"><img src="img/Logo_Ecoist.png" style="width:5rem;"> </a>
-        <button class="navbar-toggler " type="button " data-toggle="collapse" data-target="#responsive-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsive-nav">
             <span><i class="fas fa-caret-square-down"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="responsive-nav">
@@ -30,16 +30,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#milestones-Eco">Milestones</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#future-Eco">Future developments</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <!-- image gallery section opens on new html pages depending on which image gallery is being viewed-->
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Gallery</a>
+                <!-- image gallery not required now -->
+                <!-- image gallery section opens on new html pages depending on which image gallery is being viewed-->
+                <!--   
+                <li class="nav-item dropdown">                                
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Gallery</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="slider.html" target="_blank">Events 2018</a>
                         <a class="dropdown-item" href="events2017.html" target="_blank">Events 2017</a>
-                        <a class="dropdown-item" href="events2018.html" target="_blank">Events 2018</a>
                     </div>
+                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#articles-Eco">Media</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#faq-Eco">FAQ</a>
@@ -51,55 +53,56 @@
         </div>
     </nav>
     <main>
+
         <!-- styling main content section-->
-        <section style="background-color: black">
+        <section style="background-color: darkgreen">
             <article class="container">
                 <div class="row">
-                    
-                        <img src="img/main_1_edited.jpg" style="width:100%;border:2rem solid darkgreen">
+                    <h3 class="mx-auto display-tagline">
+                        <i class="fab fa-pagelines"></i>  Be <span style="font-weight: bold;font-size:1.5rem ">E</span>coist <i class="far fa-dot-circle"></i> For <span style="font-weight: bold;font-size:1.5rem ">Y</span>ou <i class="far fa-dot-circle"></i> For <span style="font-weight: bold;font-size:1.5rem ">Y</span>our  Planet <i class="fab fa-pagelines"></i></h3>
+                </div>
+                <div class="row" style="height:55vh">
+                    <div class="col-12">
+                        <img src="img/Tian.png" style="width:100%;border:1rem solid darkgreen;border-radius: 30%;">
+                    </div>
                 </div>
             </article>
         </section>
-        <section>
-            <div class="row new-section">
-
-            </div>
-        </section>
         <!-- Icons Grid-->
-        <section class="features-icons text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <a href="#spec-Tian"><img class="image-thumbnail" src="img/TianThumbnail.png">
-                                <p class="lead mb-0 text-desc">Check out the specifications of Tian ! <i class="fas fa-car-side"></i></p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <a href="#energy-Eco"><img class="image-thumbnail" src="img/EnergyThumbnail.png">
-                                <p class="lead mb-0 text-desc">How much machine do you use to travel to
-                                    work ? <i class="fas fa-charging-station"></i> </p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <a href="#save-Eco"><img class="image-thumbnail" src="img/SaveThumbnail.png">
-                                <p class="lead mb-0 text-desc">How much does your car cost you in 5 years ? <i class="fas fa-euro-sign"></i></i>
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <a href="#join-Eco"><img class="image-thumbnail" src="img/JoinThumbnail.png">
-                                <p class="lead mb-0 text-desc">Do you want become a shareholder ? <i class="fas fa-hands"></i></p>
-                            </a>
-                        </div>
+        <section class="container-fluid features-icons text-center" style="background-color: darkgreen">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <a href="#spec-Tian"><img class="image-thumbnail" src="img/TianThumbnail.png">
+                            <p class="lead mb-0 text-desc spl-link">Check out the specifications of Tian ! <i class="fas fa-car-side"></i></p>
+                        </a>
                     </div>
                 </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <a href="#energy-Eco"><img class="image-thumbnail" src="img/EnergyThumbnail.png">
+                            <p class="lead mb-0 text-desc spl-link">How much machine do you use to travel to
+                                work ? <i class="fas fa-charging-station"></i> </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <a href="#save-Eco"><img class="image-thumbnail" src="img/SaveThumbnail.png">
+                            <p class="lead mb-0 text-desc spl-link">How much does your car cost you in 5 years ? <i class="fas fa-euro-sign"></i></i>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Remove join us thumbnail
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <a href="#join-Eco"><img class="image-thumbnail" src="img/JoinThumbnail.png">
+                            <p class="lead mb-0 text-desc">Do you want become a shareholder ? <i class="fas fa-hands"></i></p>
+                        </a>
+                    </div>
+                </div>-->
+            </div>
             </div>
         </section>
         <!-- about section section-->
@@ -190,15 +193,13 @@
                         tandem seater<br>
                         empty weight: 270Kg
                     </p>
+                    <!-- not rquired
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Suspension:</span><br><br>
                         front: double wishbone with coil over dampers<br>
                         rear: single swingarm with pull damper
-                    </p>
-                    <p class="specs-display">
-                        <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Steering: </span><br><br>
-                        turning circle: 8,7m<br>
-                        lock to lock: 2,7 turns (mechanical rack and pinion)</p>
+                    </p>    -->
+                    
 
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Driving
@@ -209,10 +210,12 @@
                         acceleration 0-50km/h: 3,5s<br>
                         0-100km/h: 10s
                     </p>
+                    <!--Not required 
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Wheels:</span><br><br>
                         2 front wheels: 125/80-R13<br>
                         1 rear wheel: 125R15</p>
+                        -->
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Brakes: </span><br><br>
                         electric energy recovery on the rear wheel<br>
@@ -220,24 +223,27 @@
                         rear brakedisc: hydraulic<br>
                         handbrake: mechanical
                     </p>
-
+                    <p class="specs-display">
+                            <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Steering: </span><br><br>
+                            turning circle: 8,7m<br>
+                            <!-- not required lock to lock: 2,7 turns (mechanical rack and pinion)--></p>
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Safety:</span><br><br>
                         3-point-belt<br>
                         roll-over bar<br>
-                        high strength Hammerglass body sections</p>
+                        <!-- not required high strength Hammerglass body sections --></p> 
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Battery system:</span><br><br>
                         type: Li-Ion<br>
                         voltage: 72V<br>
                         capacity: 8KWh<br>
                         range: 100km<br>
-                        recharging 0-80%: less than 2h possible<br>
-                        0-100%: less than 8h (overnight or workday)
+                        recharging 0-100%: less than 5h (overnight or workday)
                     </p>
+                    <!-- not required
                     <p class="specs-display">
                         <span style="background-color: rgb(80, 245, 80);color:black;padding:0.5rem;">Other:</span> <br><br>
-                        USB socket</p>
+                        USB socket</p>-->
                 </div>
             </article>
         </section>
@@ -245,11 +251,15 @@
         <section>
             <article class="parallax">
                 <div class="tagline">
-                    <h2 class="text-center text-light">Be Ecoist !<br>For You ! For Your Planet !<br></h2>
+                    <h2 class="text-center text-light"><span style="font-weight: bold;font-size: 3rem">E</span>coist
+                        <span style="font-weight: bold;font-size: 3rem">T</span>ian : <span style="font-weight: bold;font-size: 3rem">3</span>
+                        wheeled, <span style="font-weight: bold;font-size: 3rem">2</span> seater <span style="font-weight: bold;font-size: 3rem">E</span>lectric
+                        commuter vehicle <br></h2>
                 </div>
             </article>
         </section>
         <!-- energy and savings calculation section-->
+        <!-- not required now
         <section class="container new-section">
             <article class="row heading text-center" id="save-Eco">
                 <h2>How much does your car cost you in 5 years? </h2>
@@ -281,7 +291,7 @@
                 </div>
                 </div>
             </article>
-        </section>
+        </section>-->
 
         <section class="container new-section" id="join-Eco" style="background-color: black">
             <article class="row heading text-center">
@@ -294,7 +304,7 @@
 
             </article>
             <article class="row" id="contact-Eco">
-                <div class="col-4 section-contact text-center" style="border:2rem solid black">
+                <div class="col-12 section-contact text-center" style="border:2rem solid black">
                     <h3><br>Address <i class="fas fa-street-view"></i></h3>
                     <p>Pixlapiren, Helsingborg,Sweden</p>
                     <h3><br>Email <i class="fas fa-mail-bulk"></i></h3><br>
@@ -302,18 +312,14 @@
                     <h3><br>Phone <i class="fas fa-phone-volume"></i></h3>
                     <p>070-550 18 65</p>
                 </div>
-                <div class="col-8 mr-auto">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2228.877665662759!2d12.691064215801715!3d56.038106980630594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465233b5f5af36eb%3A0xa573f02b3096545a!2s%23Pixlapiren!5e0!3m2!1sen!2sse!4v1539171507341"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
             </article>
         </section>
         <!-- events and articles section-->
         <section class="new-section articles-section" id="articles-Eco">
             <article>
-                <h2 style="padding:2rem;">News and events</h2>
+                <h2 style="padding:2rem;">In media</h2>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card" style="width: 18rem">
                             <img class="card-img-top" src="img/Tian.png" alt="Card image cap" style="height:10rem;">
                             <div class="card-body">
@@ -325,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="img/Thomas_1.jpg" alt="Card image cap" style="height:10rem;">
                             <div class="card-body">
@@ -336,7 +342,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="img/thumbnail_1.jpeg" alt="Card image cap" style="height:10rem;">
                             <div class="card-body">
@@ -346,7 +352,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="img/logo_2.jpg" alt="Card image cap" style="height:10rem;">
                             <div class="card-body">
@@ -356,12 +362,16 @@
                                     video</a>
                             </div>
                         </div>
-                    </div>s
+                    </div>
                 </div>
             </article>
         </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
 </body>
+
 
 <footer class="myFooter text-center">
     &copy; AS-ECO 2018
