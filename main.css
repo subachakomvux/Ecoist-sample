@@ -170,8 +170,10 @@
 
 }
 .section-contact{
-    background-color:white;
-    color:green;
+    background-image:url('img/bkgnd_contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(10, 10, 10);
 }
 .section-milestones{
     background-image:url('img/wallpaper_3.jpg');
