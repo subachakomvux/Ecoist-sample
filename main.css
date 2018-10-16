@@ -5,7 +5,6 @@
 /*styling header in index.html*/
 .index-heading{    
     background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
-    color:rgb(241, 243, 208);
     height:10vh;
 }
 .tian-image{
@@ -75,7 +74,7 @@
     padding-bottom: 7rem;
 }
 .features-icons .features-icons-item {
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
     max-width: 20rem;
 }
 .features-icons .features-icons-item {
@@ -117,10 +116,17 @@
 }
 /* display company slogan on top of homepage */
 .display-tagline{
-    background-color: darkgreen;
+    background-color: rgb(0, 0, 0);
     color:greenyellow;
     height:6rem;
-    font-size:1.2rem;font-family:Helvetica ; line-height: 6rem;padding-top:2rem;align-content: center;
+    font-size:1.2rem;
+    font-family:Helvetica ; 
+    line-height: 6rem;
+    padding-top:2rem;
+    align-content: center;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    border-radius: 5%;
 }
 /* styling navigation bar*/
 .my-nav{
