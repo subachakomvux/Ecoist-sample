@@ -7,6 +7,39 @@
     background-image: repeating-linear-gradient(rgb(0, 0, 0),rgb(0, 102, 0) 10%,rgb(153, 204, 0) 20%);
     height:10vh;
 }
+/*styling header in faq.html*/
+.faq-heading{    
+    background-color:rgb(205, 248, 106);
+    height:10vh;
+}
+/* styling cta in faq-html */
+.faq-cta {
+    position: relative;
+    padding: 1rem 0;
+    background-image: url('img/Tian.png');    
+    background-position: center;
+    background-size: cover;
+}
+/* styling faq question */
+.faq-question{
+    background-color: rgba(255,255,255,0.5);
+    color:rgb(0, 0, 0);
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+/* styling faq answer */
+.faq-answer{
+    background-color: black;
+    color:white;
+    font-size:1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 /* styling home.html*/
 .home-header {
     background-color:black;
@@ -48,7 +81,7 @@
 }
 .cta {
     position: relative;
-    padding: 250px 0;
+    padding: 16rem 0;
     background-image: url('img/Tian.png');    
     background-position: center;
     background-size: cover;
